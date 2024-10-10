@@ -1,4 +1,11 @@
-# Image Editor
+# 🎨 Image Processing Application
+
+## Overview
+
+The Image Processing Application provides a structured framework for manipulating images in various formats, including PNG, JPG, and PPM. 🖼️ By utilizing the Model-View-Controller (MVC) design pattern, the application separates concerns for improved maintainability and scalability. 🚀 Users can execute image manipulation commands through script files or a command prompt, allowing for efficient processing and saving of images. 💾 The application is designed to support various image operations, enhancing the flexibility and functionality of image handling. ✨
+
+![image](https://github.com/user-attachments/assets/45577110-93c7-4644-8ff9-9129e8f8ab30)
+
 
 **Model**
 1. ImageContent:
@@ -23,6 +30,8 @@
    based on the specified compression percentage, applies threshold, and performs inverse
    transformations and un-pads the image to achieve image compression while maintaining visual 
    quality. The class ultimately returns the compressed RGB data of the image.
+
+![image](https://github.com/user-attachments/assets/1eb6837a-8aa5-44b1-8d0a-f4a927bd12e7)
 
 **Controller**:
 1. The `Controller` class serves as the controller in the Model-View-Controller (MVC) architectural
@@ -76,6 +85,9 @@ a button is clicked. The view sends the controller the information about what th
 and then the controller sends the control to the model based on what operation needs to be applied. 
 The controller again calls the view to display the operated image and the output to the user.
 
+![image](https://github.com/user-attachments/assets/dbf6db2b-6aaa-48f5-bf08-9335e65562b2)
+![image](https://github.com/user-attachments/assets/5176f697-fd65-434b-9434-e5635ec2a00c)
+
 **Parts of the program that are complete**:
 
 1. The program can perform all the operations on PNG, JPG, JPEG and PPM images.
@@ -107,6 +119,10 @@ The controller again calls the view to display the operated image and the output
   controller to load and save images of any form, be it PNG, JPG or PPM. All the IO Operations take
   place in the controller and not the model. This was done because all the IO operations are 
   supposed to be done in the controller and not the model.
+
+![image](https://github.com/user-attachments/assets/d4ad8885-7d17-4ef7-bc73-7ccc0093df67)
+![image](https://github.com/user-attachments/assets/211094e4-c2a4-4bb1-91ba-9a23538eea77)
+![image](https://github.com/user-attachments/assets/dd6f758c-16b6-4f5e-8bf2-f0800b4b88cb)
 
 **Citations**:
 
